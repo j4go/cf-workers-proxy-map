@@ -109,7 +109,7 @@ export default {
   async fetch(request, env, ctx) {
     try {
       const {
-        PROXY_HOSTNAME = "www.google.com/maps",
+        PROXY_HOSTNAME = "www.google.com/maps/",
         PROXY_PROTOCOL = "https",
         PATHNAME_REGEX,
         UA_WHITELIST_REGEX,
